@@ -1,5 +1,17 @@
 // import slider for the tuning of pitch and speed
 import Slider from '@react-native-community/slider';
+import React,  { Component, useState, useEffect} from 'react';
+import {
+  StyleSheet,
+  Text,
+  View,
+  Image,
+  TouchableHighlight,
+  SafeAreaView,
+  TextInput,Keyboard,TouchableOpacity,FlatList
+} from 'react-native';
+
+
 
 // import Tts Text to Speech
 import Tts from 'react-native-tts';

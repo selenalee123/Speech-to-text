@@ -1,23 +1,18 @@
 
 // Text to Speech Conversion with Natural Voices in React Native
-
-import React in our code
-import React, {useState, useEffect} from 'react';
-
-// import all the components we are going to use
+// import slider for the tuning of pitch and speed
+import Slider from '@react-native-community/slider';
+import React,  { Component, useState, useEffect} from 'react';
 import {
-  SafeAreaView,
   StyleSheet,
   Text,
   View,
-  FlatList,
-  TextInput,
-  Keyboard,
-  TouchableOpacity,
+  Image,
+  TouchableHighlight,
+  SafeAreaView,
+  TextInput,Keyboard,TouchableOpacity,FlatList
 } from 'react-native';
 
-// import slider for the tuning of pitch and speed
-import Slider from '@react-native-community/slider';
 
 // import Tts Text to Speech
 import Tts from 'react-native-tts';
